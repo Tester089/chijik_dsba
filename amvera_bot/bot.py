@@ -13,7 +13,7 @@ dp = Dispatcher()
 
 @dp.message(Command("start"))
 async def start(message: types.Message):
-    webapp = WebAppInfo(url="https://chijik-demo-2025-06-09.streamlit.app")
+    webapp = WebAppInfo(url="https://chijik-dsba-6-14.streamlit.app")
     button = InlineKeyboardButton(text="Open Web App", web_app=webapp)
     keyboard = InlineKeyboardMarkup(inline_keyboard=[[button]])
     await message.answer(
