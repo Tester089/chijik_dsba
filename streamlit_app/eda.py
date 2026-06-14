@@ -375,7 +375,7 @@ elif window == "Data Cleanup":
     st.markdown("### After cleanup")
     st.dataframe(cleanup_check)
 
-    st.markdown("### Final column types after cleanup (?)")
+    st.markdown("### Final column types after cleanup")
     st.dataframe(clean.dtypes.reset_index().rename(columns={"index": "column", 0: "dtype"}))
 
 elif window == "Stats":
