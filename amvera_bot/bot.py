@@ -5,8 +5,8 @@ from aiogram.filters import Command
 from aiogram.types import WebAppInfo, InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.client.default import DefaultBotProperties
 
-API_BASE = "https://api-hum0d0botyw2.amvera.io"
-BOT_TOKEN = "8869777063:AAFmi-4d4iUcN3K2g6Ad3Znp5mI-Vl6Vb34"
+API_BASE = ""
+BOT_TOKEN = ""
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode="HTML"))
 dp = Dispatcher()
 
